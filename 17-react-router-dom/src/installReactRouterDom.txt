@@ -1,0 +1,14 @@
+1. npm i react-router-dom
+
+BrowserRouter = A declarative <Router> using the browser History API for client-side routing
+
+
+abc.com = /
+abc.com/courses = /courses
+abc.com/about = /about
+
+HashRouter = A declarative <Router> that stores the location in the hash portion of the URL so it is not so it is not sent to the server
+
+
+
+MemoryRouter = A declarative <Router> that stores all entries in memory.
