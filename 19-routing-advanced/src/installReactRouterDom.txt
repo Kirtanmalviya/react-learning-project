@@ -1,0 +1,23 @@
+1. npm i react-router-dom
+
+BrowserRouter = A declarative <Router> using the browser History API for client-side routing
+
+
+abc.com = /
+abc.com/courses = /courses
+abc.com/about = /about
+
+HashRouter = A declarative <Router> that stores the location in the hash portion of the URL so it is not so it is not sent to the server
+
+
+
+MemoryRouter = A declarative <Router> that stores all entries in memory.
+
+we can create nested routes by :
+
+<Route path="/parent" element={<ParentComponent />}>
+ <Route path="child1" elemennt={<ChildComponent1 />}>
+ <Route path="child2" elemennt={<ChildComponent2 />}>
+ <Route path="child3" elemennt={<ChildComponent3 />}>
+</Route>
+
